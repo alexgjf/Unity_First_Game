@@ -1,3 +1,4 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
 *.suo filter=lfs diff=lfs merge=lfs -text
 *.vsconfig filter=lfs diff=lfs merge=lfs -text
 *.csproj filter=lfs diff=lfs merge=lfs -text
@@ -5455,7 +5456,6 @@
 /Library/PackageCache/com.unity.burst@1.8.7/.Runtime/hostlin/llvm-lipo filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.8.7/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.8.7/.Runtime/hostmac/llvm-lipo filter=lfs diff=lfs merge=lfs -text
-*.dylib filter=lfs diff=lfs merge=lfs -text
 *.a filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
 *.asmref filter=lfs diff=lfs merge=lfs -text
